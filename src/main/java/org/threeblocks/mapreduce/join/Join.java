@@ -40,7 +40,7 @@ public class Join {
 				throws IOException, InterruptedException {
 			String[] split = value.toString().split(",");
 			
-			//1、获取maptask读取的文件切片信息，需声明是哪种类型的切片
+			//1、获取maptask读取的文件切片信息，需声明是哪种类型的切片//
 			FileSplit fileSplit = (FileSplit) context.getInputSplit();
 			
 			//2、获取文件名，根据文件名获取是哪种文件
